@@ -15,10 +15,10 @@ export const skillsData = [
         name: "Content Writing",
         rate: "75",
     },
-    // {
-    //     name: "Graphic Design",
-    //     rate: "75",
-    // },
+    {
+        name: "Graphic Design",
+        rate: "75",
+    },
     {
         name: "General Virtual Assistant",
         rate: "75",
