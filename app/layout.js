@@ -15,6 +15,40 @@ const geistMono = localFont({
 export const metadata = {
     title: "Aljon Samarita",
     description: "A portfolio website of Aljon Samarita",
+    creator: "Christian Rodriguez",
+    keywords: ["Virtual Assistant", "VA", "Customer Service"],
+    openGraph: {
+        type: "website",
+        url: "https://aljonsamarita.vercel.app/",
+        title: "Personal Portfolio Website of Aljon Samarita",
+        description: "A portfolio website of Aljon Samarita",
+        images: "/assets/profile.png",
+    },
+    robots: {
+        index: true,
+        follow: true,
+        nocache: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            noimageindex: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
+    icons: {
+        icon: "/images/favicon.png",
+        shortcut: "/images/favicon.png",
+    },
+    verification: {
+        google: "google",
+        yandex: "yandex",
+        yahoo: "yahoo",
+    },
+    alternates: {
+        canonical: process.env.NEXT_PUBLIC_APP_BASE_URL,
+    },
 };
 
 export default function RootLayout({ children }) {
