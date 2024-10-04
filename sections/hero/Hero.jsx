@@ -10,9 +10,61 @@ const dancingScript = Dancing_Script({ subsets: ["latin"] });
 const Hero = () => {
     return (
         <>
-            <Navbar />
+            <nav className="hidden md:grid md:grid-cols-2 p-[2rem] z-[20]">
+                <div></div>
+                <ul className="max-w-md flex flex-row justify-between">
+                    <li>
+                        <a
+                            className="text-slate-50 hover:text-teal-400"
+                            href="#home"
+                        >
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            className="text-slate-50 hover:text-teal-400"
+                            href="#services"
+                        >
+                            Services
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            className="text-slate-50 hover:text-teal-400"
+                            href="#skills"
+                        >
+                            Skills
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            className="text-slate-50 hover:text-teal-400"
+                            href="#tools"
+                        >
+                            Tools
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            className="text-slate-50 hover:text-teal-400"
+                            href="#work"
+                        >
+                            Work Experience
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            className="text-slate-50 hover:text-teal-400"
+                            href="#contact"
+                        >
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
             <section id="home">
-                <ul className="h-fit min-h-screen w-screen  grid sm:grid-cols-1 lg:grid-cols-2 px-8 pb-[2rem] pt-[4rem]">
+                <ul className="h-fit min-h-screen w-screen  grid sm:grid-cols-1 lg:grid-cols-2 px-8 pb-[2rem]">
                     <li className="flex flex-col justify-center items-center order-last md:order-last lg:order-first">
                         <h1 className="text-teal-400 text-5xl md:text-7xl lg:text-7xl leading-[115%] tracking-[0.72px] border-b-[1px] border-teal-400">
                             Aljon Samarita
