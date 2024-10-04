@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
     return (
-        <nav className="grid md:grid-cols-2 fixed inset-x-0 top-0 p-[2rem] z-[20]">
+        <nav className="hidden md:grid md:grid-cols-2 fixed inset-x-0 top-0 p-[2rem] z-[20]">
             <div></div>
             <ul className="max-w-md flex flex-row justify-between">
                 <li>
