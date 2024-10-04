@@ -12,7 +12,7 @@ const Hero = () => {
         <>
             <Navbar />
             <section id="home">
-                <ul className="h-fit min-h-screen w-screen bg-gradient-to-r from-[#000000] to-[#0000001A] grid sm:grid-cols-1 lg:grid-cols-2 px-8 pb-[2rem] pt-[4rem]">
+                <ul className="h-fit min-h-screen w-screen  grid sm:grid-cols-1 lg:grid-cols-2 px-8 pb-[2rem] pt-[4rem]">
                     <li className="flex flex-col justify-center items-center order-last md:order-last lg:order-first">
                         <h1 className="text-teal-400 text-5xl md:text-7xl lg:text-7xl leading-[115%] tracking-[0.72px] border-b-[1px] border-teal-400">
                             Aljon Samarita
