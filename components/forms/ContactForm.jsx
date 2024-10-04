@@ -55,7 +55,7 @@ const ContactForm = () => {
                 className="flex flex-col w-full max-w-lg self-center bg-dark-950 px-[2%] md:px-[4%] mt-20 py-20 gap-2 shadow-[0_0px_60px_20px_rgba(0,0,0,0.3)]"
             >
                 <h2 className="text-blue-400 text-4xl w-full font-bold mb-10 flex flex-row justify-center gap-5">
-                    Let's Connect <FaPaperPlane />
+                    Let&apos;s Connect <FaPaperPlane />
                 </h2>
                 <fieldset className="flex flex-col md:flex-row gap-2 w-full">
                     <fieldset className="flex flex-col">
