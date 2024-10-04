@@ -3,10 +3,10 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const Timeline = ({ data }) => {
     return (
-        <div className="w-full relative border-l-[2px] border-blue-500 h-fit lg:pr-20">
+        <div className="w-full relative border-l-[2px] border-teal-400 h-fit lg:pr-20">
             <div
                 key={data.sequence}
-                className="absolute left-0 w-10 h-10 bg-blue-500 rounded-full flex justify-center items-center -ml-[24px] font-bold text-2xl text-blue-950"
+                className="absolute left-0 w-10 h-10 bg-teal-400 rounded-full flex justify-center items-center -ml-[24px] font-bold text-2xl text-teal-950"
             >
                 {data.sequence}
             </div>
@@ -14,31 +14,28 @@ const Timeline = ({ data }) => {
                 <div className="w-full flex flex-col md:flex-row md:justify-between">
                     <h2
                         key={data.role}
-                        className="text-blue-500 font-bold text-2xl"
+                        className="text-teal-400 font-bold text-2xl"
                     >
                         {data.role}
                     </h2>
                     <h3
                         key={data.duration}
-                        className="text-slate-100 md:flex justify-center items-center"
+                        className="text-slate-50 md:flex justify-center items-center"
                     >
                         {data.duration}
                     </h3>
                 </div>
-                <h2
-                    key={data.company}
-                    className="text-slate-100 text-xl italic"
-                >
+                <h2 key={data.company} className="text-slate-50 text-xl italic">
                     {data.company}
                 </h2>
                 <div className="mt-5">
                     {data.details.map((data) => (
                         <p
                             key={data}
-                            className="text-slate-400 flex flex-row gap-2"
+                            className="text-slate-200 flex flex-row gap-2"
                         >
                             <span>
-                                <FaCheckCircle className="text-blue-500" />
+                                <FaCheckCircle className="text-teal-400" />
                             </span>
                             {data}
                         </p>

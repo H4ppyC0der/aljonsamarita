@@ -52,18 +52,18 @@ const ContactForm = () => {
             />
             <form
                 onSubmit={sendMail}
-                className="flex flex-col w-full max-w-lg self-center bg-dark-950 px-[2%] md:px-[4%] mt-20 py-20 gap-2 shadow-[0_0px_60px_20px_rgba(0,0,0,0.3)]"
+                className="flex flex-col w-full max-w-lg self-center bg-teal-950 px-[2%] md:px-[4%] mt-20 py-20 gap-2 shadow-[0_0px_60px_20px_rgba(0,0,0,0.3)] bg-opacity-95"
             >
-                <h2 className="text-blue-400 text-4xl w-full font-bold mb-10 flex flex-row justify-center gap-5">
+                <h2 className="text-teal-300 text-4xl w-full font-bold mb-10 flex flex-row justify-center gap-5">
                     Let&apos;s Connect <FaPaperPlane />
                 </h2>
                 <fieldset className="flex flex-col md:flex-row gap-2 w-full">
                     <fieldset className="flex flex-col">
-                        <label className="text-blue-500" htmlFor="first-name">
+                        <label className="text-teal-300" htmlFor="first-name">
                             First name
                         </label>
                         <input
-                            className="w-full rounded-md text-dark p-4 border-2 bg-white border-white focus:outline-none hover:border-blue-500 focus:border-blue-500"
+                            className="w-full rounded-md text-dark p-4 border-2 bg-white border-white focus:outline-none hover:border-teal-300 focus:border-teal-300"
                             id="first-name"
                             type="text"
                             placeholder="Juan"
@@ -80,11 +80,11 @@ const ContactForm = () => {
                         />
                     </fieldset>
                     <fieldset className="flex flex-col">
-                        <label className="text-blue-500" htmlFor="last-name">
+                        <label className="text-teal-300" htmlFor="last-name">
                             Last name
                         </label>
                         <input
-                            className="w-full rounded-md text-dark p-4 border-2 bg-white border-white focus:outline-none hover:border-blue-500 focus:border-blue-500"
+                            className="w-full rounded-md text-dark p-4 border-2 bg-white border-white focus:outline-none hover:border-teal-300 focus:border-teal-300"
                             id="last-name"
                             type="text"
                             placeholder="Dela Cruz"
@@ -94,11 +94,11 @@ const ContactForm = () => {
                     </fieldset>
                 </fieldset>
                 <fieldset className="flex flex-col">
-                    <label className="text-blue-500" htmlFor="email">
+                    <label className="text-teal-300" htmlFor="email">
                         Email
                     </label>
                     <input
-                        className="rounded-md text-dark p-4 border-2 bg-white border-white focus:outline-none hover:border-blue-500 focus:border-blue-500"
+                        className="rounded-md text-dark p-4 border-2 bg-white border-white focus:outline-none hover:border-teal-300 focus:border-teal-300"
                         id="email"
                         type="email"
                         required
@@ -115,11 +115,11 @@ const ContactForm = () => {
                     />
                 </fieldset>
                 <fieldset className="flex flex-col">
-                    <label className="text-blue-500" htmlFor="subject">
+                    <label className="text-teal-300" htmlFor="subject">
                         Subject line
                     </label>
                     <input
-                        className="rounded-md text-dark p-4 border-2 bg-white border-white focus:outline-none hover:border-blue-500 focus:border-blue-500"
+                        className="rounded-md text-dark p-4 border-2 bg-white border-white focus:outline-none hover:border-teal-300 focus:border-teal-300"
                         id="subject"
                         type="text"
                         required
@@ -135,11 +135,11 @@ const ContactForm = () => {
                     />
                 </fieldset>
                 <fieldset className="flex flex-col">
-                    <label className="text-blue-500" htmlFor="message">
+                    <label className="text-teal-300" htmlFor="message">
                         Message
                     </label>
                     <textarea
-                        className="rounded-md text-dark p-4 border-2 bg-white border-white focus:outline-none hover:border-blue-500 focus:border-blue-500"
+                        className="rounded-md text-dark p-4 border-2 bg-white border-white focus:outline-none hover:border-teal-300 focus:border-teal-300"
                         required
                         placeholder="Please elaborate your concern."
                         value={message}
@@ -154,7 +154,7 @@ const ContactForm = () => {
                     />
                 </fieldset>
                 <button
-                    className="text-dark-950 bg-blue-600 font-bold rounded-md mt-5 py-4 hover:bg-blue-400"
+                    className="text-dark-950 bg-teal-600 font-bold rounded-md mt-5 py-4 hover:bg-teal-300"
                     type="submit"
                     disabled={sending}
                 >

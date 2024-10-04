@@ -7,7 +7,7 @@ const Navbar = () => {
             <ul className="max-w-md flex flex-row justify-between">
                 <li>
                     <a
-                        className="text-blue-50 hover:text-blue-400"
+                        className="text-slate-50 hover:text-teal-400"
                         href="#home"
                     >
                         Home
@@ -15,7 +15,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <a
-                        className="text-blue-50 hover:text-blue-400"
+                        className="text-slate-50 hover:text-teal-400"
                         href="#services"
                     >
                         Services
@@ -23,7 +23,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <a
-                        className="text-blue-50 hover:text-blue-400"
+                        className="text-slate-50 hover:text-teal-400"
                         href="#skills"
                     >
                         Skills
@@ -31,7 +31,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <a
-                        className="text-blue-50 hover:text-blue-400"
+                        className="text-slate-50 hover:text-teal-400"
                         href="#tools"
                     >
                         Tools
@@ -39,7 +39,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <a
-                        className="text-blue-50 hover:text-blue-400"
+                        className="text-slate-50 hover:text-teal-400"
                         href="#work"
                     >
                         Work Experience
@@ -47,7 +47,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <a
-                        className="text-blue-50 hover:text-blue-400"
+                        className="text-slate-50 hover:text-teal-400"
                         href="#contact"
                     >
                         Contact

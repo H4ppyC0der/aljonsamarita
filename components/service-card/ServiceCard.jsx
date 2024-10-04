@@ -9,7 +9,7 @@ const ServiceCard = ({ name, description, image }) => {
                 className="w-10 h-10"
                 dangerouslySetInnerHTML={{ __html: image }}
             />
-            <h1 className="font-bold text-blue-950">{name}</h1>
+            <h1 className="font-bold text-teal-950">{name}</h1>
             <p className="text-center text-sm text-slate-700">{description}</p>
         </div>
     );

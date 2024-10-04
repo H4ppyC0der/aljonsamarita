@@ -3,11 +3,11 @@ import React from "react";
 const SkillsRange = ({ name, rate }) => {
     return (
         <>
-            <p className="text-slate-200">{name}</p>
-            <li className="w-[100%] bg-slate-500 rounded-md mb-5">
+            <p className="text-slate-100">{name}</p>
+            <li className="w-[100%] bg-slate-300 rounded-md mb-5">
                 <p
                     style={{ width: `${rate}%` }}
-                    className="bg-green-700 text-right text-slate-100 rounded-md"
+                    className="bg-teal-300 text-right text-slate-950 rounded-md"
                 >
                     {rate}%
                 </p>
