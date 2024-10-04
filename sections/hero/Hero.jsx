@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import background from "../../public/image1.jpg";
-import profile from "../../public/profile.png";
+import profile from "../../public/assets/profile.png";
 import { Dancing_Script } from "next/font/google";
 import Buttons from "@/components/hero-button/Buttons";
 import Navbar from "@/components/navbar/Navbar";
@@ -12,7 +11,7 @@ const Hero = () => {
     return (
         <>
             <Navbar />
-            <section className="h-fit min-h-screen bg-[url('../components/hero-background/Background.svg')] bg-center bg-no-repeat bg-cover ">
+            <section id="home">
                 <ul className="h-fit min-h-screen w-screen bg-gradient-to-r from-[#000000] to-[#0000001A] grid sm:grid-cols-1 lg:grid-cols-2 px-8 pb-[2rem] pt-[4rem]">
                     <li className="flex flex-col justify-center items-center order-last md:order-last lg:order-first">
                         <h1 className="text-blue-600 text-5xl md:text-7xl lg:text-7xl leading-[115%] tracking-[0.72px] border-b-[1px] border-blue-600">

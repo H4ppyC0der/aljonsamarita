@@ -19,9 +19,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en">
+        <html className="scroll-smooth" lang="en">
             <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+                className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[url('../components/hero-background/Background.svg')] bg-center bg-no-repeat bg-cover bg-fixed`}
             >
                 {children}
             </body>

@@ -6,27 +6,50 @@ const Navbar = () => {
             <div></div>
             <ul className="max-w-md flex flex-row justify-between">
                 <li>
-                    <a className="text-blue-50 hover:text-blue-400" href="#">
+                    <a
+                        className="text-blue-50 hover:text-blue-400"
+                        href="#home"
+                    >
                         Home
                     </a>
                 </li>
                 <li>
-                    <a className="text-blue-50 hover:text-blue-400" href="#">
+                    <a
+                        className="text-blue-50 hover:text-blue-400"
+                        href="#services"
+                    >
+                        Services
+                    </a>
+                </li>
+                <li>
+                    <a
+                        className="text-blue-50 hover:text-blue-400"
+                        href="#skills"
+                    >
                         Skills
                     </a>
                 </li>
                 <li>
-                    <a className="text-blue-50 hover:text-blue-400" href="#">
+                    <a
+                        className="text-blue-50 hover:text-blue-400"
+                        href="#tools"
+                    >
                         Tools
                     </a>
                 </li>
                 <li>
-                    <a className="text-blue-50 hover:text-blue-400" href="#">
+                    <a
+                        className="text-blue-50 hover:text-blue-400"
+                        href="#work"
+                    >
                         Work Experience
                     </a>
                 </li>
                 <li>
-                    <a className="text-blue-50 hover:text-blue-400" href="#">
+                    <a
+                        className="text-blue-50 hover:text-blue-400"
+                        href="#contact"
+                    >
                         Contact
                     </a>
                 </li>

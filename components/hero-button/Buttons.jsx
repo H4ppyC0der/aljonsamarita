@@ -4,13 +4,13 @@ import React from "react";
 
 const Buttons = () => {
     function downloadCV() {
-        window.open("../../public/aljonsamarita.pdf", "_blank");
+        window.open("/aljonsamarita.pdf");
     }
     return (
         <div className="flex flex-row gap-5 justify-center md:justify-start lg:justify-start">
             <button
                 onClick={downloadCV}
-                className="border border-1 border-blue-400 font-semibold rounded-lg px-4 py-2 text-blue-400 hover:bg-blue-300 hover:text-dark-950 transition-all duration-200 hover:shadow-outer"
+                className="border border-1 border-blue-400 font-semibold rounded-lg px-4 py-2 text-blue-400 hover:bg-blue-300 hover:text-slate-950 transition-all duration-200 hover:shadow-outer"
             >
                 Download CV
             </button>
