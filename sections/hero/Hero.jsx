@@ -84,7 +84,7 @@ const Hero = () => {
                     </li>
                     <li className="flex justify-center items-center ">
                         <Image
-                            className="rounded-full drop-shadow-lg"
+                            className="rounded-full drop-shadow-xl ring-4 ring-teal-500"
                             src={profile}
                             width={400}
                             height={400}
