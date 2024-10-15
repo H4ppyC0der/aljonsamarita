@@ -6,7 +6,7 @@ const Timeline = ({ data }) => {
         <div className="w-full relative border-l-[2px] border-teal-400 h-fit lg:pr-20">
             <div
                 key={data.sequence}
-                className="absolute left-0 w-10 h-10 bg-teal-400 rounded-full flex justify-center items-center -ml-[24px] font-bold text-2xl text-teal-950"
+                className="absolute left-0 w-10 h-10 bg-teal-400 rounded-full flex justify-center items-center -ml-[24px] font-bold text-xl text-teal-700"
             >
                 {data.sequence}
             </div>

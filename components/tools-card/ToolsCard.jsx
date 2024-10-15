@@ -2,7 +2,7 @@ import React from "react";
 
 const ToolsCard = ({ name, image }) => {
     return (
-        <section className="w-full h-full p-5 rounded-md bg-slate-950 bg-opacity-60 flex flex-col justify-center items-center gap-4">
+        <section className="w-full h-full p-5 rounded-md bg-slate-950 bg-opacity-15 flex flex-col justify-center items-center gap-4">
             <div
                 key={image}
                 className="w-20 h-20"

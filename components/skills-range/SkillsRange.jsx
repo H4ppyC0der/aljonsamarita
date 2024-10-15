@@ -7,7 +7,7 @@ const SkillsRange = ({ name, rate }) => {
             <li className="w-[100%] bg-slate-300 rounded-md mb-5">
                 <p
                     style={{ width: `${rate}%` }}
-                    className="bg-teal-300 text-right text-slate-950 rounded-md"
+                    className="bg-teal-300 text-right text-slate-800 rounded-md pr-2 font-bold"
                 >
                     {rate}%
                 </p>

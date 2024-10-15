@@ -5,7 +5,7 @@ import { FaFacebook } from "react-icons/fa";
 const Footer = () => {
     return (
         <footer className=" mt-10">
-            <section className="border-t-[2px] grid grid-cols-1 md:grid-cols-2 gap-4 p-6">
+            <section className="border-t-2 border-t-teal-900 grid grid-cols-1 md:grid-cols-2 gap-4 p-6">
                 <ul className="flex flex-col items-center md:items-end">
                     <h2 className="font-bold text-teal-400">Quick Links</h2>
                     <li>
@@ -93,7 +93,7 @@ const Footer = () => {
                     </li>
                 </ul>
             </section>
-            <section className="border-t-[1px] text-slate-100 text-center p-2 text-sm">
+            <section className="border-t-[1px] border-t-teal-900 text-slate-300 text-center p-2 text-sm">
                 All rights reserved @2024 | Designed and Created for Aljon
                 Samarita
             </section>

@@ -52,7 +52,7 @@ const ContactForm = () => {
             />
             <form
                 onSubmit={sendMail}
-                className="flex flex-col w-full max-w-lg self-center bg-teal-950 px-[2%] md:px-[4%] mt-20 py-20 gap-2 shadow-[0_0px_60px_20px_rgba(0,0,0,0.3)] bg-opacity-95"
+                className="flex flex-col w-full max-w-lg self-center bg-teal-950 px-[2%] md:px-[4%] mt-20 py-20 gap-2 shadow-[0_0px_60px_20px_rgba(0,0,0,0.3)] bg-opacity-20"
             >
                 <h2 className="text-teal-300 text-4xl w-full font-bold mb-10 flex flex-row justify-center gap-5">
                     Let&apos;s Connect <FaPaperPlane />
